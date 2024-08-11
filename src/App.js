@@ -2,9 +2,6 @@ import "./App.css";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Layout from "./page/Layout";
 import Home from "./page/Home";
-import JobDetail from "./page/JobDetail";
-
-import RequireAuth from "./auth/RequireAuth";
 import Login from "./page/Login";
 import LoginModal from "./components/LoginModal";
 import JobDetailModal from "./components/JobDetailModal";
