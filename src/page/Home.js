@@ -20,7 +20,7 @@ function Home() {
   const [page, setPage] = useState(1);
   const [searchParams, setSearchParams] = useSearchParams();
   const q = searchParams.get("q");
-
+  console.log(setSearchParams);
   useEffect(() => {
     const fetch = async () => {
       const data = await api.getJobs(page, q);
