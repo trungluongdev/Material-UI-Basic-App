@@ -31,7 +31,7 @@ function JobDetailModal() {
       setJob(data);
     };
     fetchData();
-  }, []);
+  });
 
   const handleClose = () => {
     navigate(-1);

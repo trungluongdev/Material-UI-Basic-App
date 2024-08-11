@@ -31,7 +31,9 @@ async function getJob(id) {
   });
   await promise;
 
-  return jobs.find((job) => job.id == id);
+  return jobs.find((job) => job.id === id);
 }
 
-export default { getJobs, getJob };
+const apiMethods = { getJobs, getJob };
+
+export default apiMethods;

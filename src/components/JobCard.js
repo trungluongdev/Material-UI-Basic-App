@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
@@ -32,6 +32,7 @@ function JobCard({ description, skills, id, title }) {
       navigate("/login");
     }
   };
+  console.log(hanleClick);
   return (
     <CardStyle ariant="outlined">
       <Stack
